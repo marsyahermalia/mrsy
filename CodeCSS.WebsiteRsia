@@ -1,0 +1,582 @@
+BAB IV PELAKSANAAN PRAKTIK KERJA LAPANGAN
+A.	Pelaksanaan Kegiatan
+1.  Kegiatan Umum
+Kegiatan yang umum dilakukan di Rumah Sakit Islam Assyifa secara umum dimulai dari pukul 07:00 sd 16:00 WIB   
+B.	Hasil Laporan Kegiatan Praktik Kerja Lapangan
+1.	Buat folder baru di desktop 
+2.	Beri nama folder yang sudah kita buat 
+ 
+
+3. Masukan gambar-gambar yang akan kita gunakan untuk membuat website
+ 
+
+4. Klik kiri pada mouse kemudian pilih open with code
+ 
+5. Klik menu extensions lalu cari HTML CSS Support
+ 
+7. Download HTML dan CSS
+ 
+
+
+
+
+
+8. Buka menu eksplorer kemudian klik open folder 
+	 
+	9.  klik icon file untuk membuat file baru
+ 
+	10. berikan nama index.html untuk membuat tampilan
+ 
+	 11. buat juga nama style.css untuk mengatur tampilan 
+12. Masukan codingan HTML
+codeHTMLwebsite.RSIA
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Mo - Responsive Website(Sistem Informasi Rumah Sakit Islam Assyifa)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:wght@400;600&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="nav">
+            <div class="logo">
+              <img src="images/logo_assyifa" alt="">  
+
+              <div>
+              </div>
+            </div>
+            <div class="links">
+                <a href="#" class="mainlink">Tentang Kami</a>
+                <a href="#">Dokter</a>
+                <a href="#">Pelayanan</a>
+                <a href="#">Kontak</a>
+            </div>
+        </div>
+        <div>
+            <div>
+                <div>
+
+                </div>
+            </div>
+        </div>
+
+        <!---Landing Page-->
+
+        <div class="landing">
+            <div class="landingText" data-aos="fade-up" data-aos-duration="1000">
+                <h1>Rumah Sakit Islam<span style="color: #11875d; font-size: 5vw;"></span> Assyifa </h1>
+
+        <!---Service Section-->
+        <div class="about">
+            <div class="aboutText" data-aos="fade-up" data-aos-duration="1000">
+                        <h1>Rumah Sakit Islam<span style="color: #11875d; font-size:5vw;"> Assyifa</span></h1>
+                <h1>Dengan Basmallah <span style="color: #11875d;font-size:3vw;">Kami Siap Melayani Anda</span></h1>
+                <img src="images/nursess.png" width="650" height="531" alt="">
+            </div>
+            <div class="aboutList" data-aos="fade-left" data-aos-duration="1000">
+                <o>
+                    <li>
+                        <span>01</span>
+                        <p>Teknologi Modern.</p>
+                    </li>
+                    <li>
+                        <span>02</span>
+                        <p>Fasilitas Lengkap.</p>
+                    </li>
+                    <li>
+                        <span>03</span>
+                        <p>Perawat Berpengalaman.</p>
+                    </li>
+                    <li>
+                        <span>04</span>
+                        <p>24 Jam Support.</p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <!---Info Section-->
+        <div class="infoSection">
+            <div class="infoHeader" data-aos="fade-up" data-aos-duration="1000">
+                <h1>Kami Menganalisis Kondisi Kesehatan Anda <br> <span style="color: #11875d;"></span> Untuk Mendapatkan Layanan Terbaik.</h1>
+        </div>
+        <div class="infoCards">
+            <div class="card one" data-aos="fade-up" data-aos-duration="1000">
+                <img src="images/healty.png" class="cardoneImg" alt="" data-aos="fade-up" data-aos-duration="1100">
+                <div class="cardbgone"></div>
+                <div class="cardContent">
+                    <h2>Pelayanan Kesehatan</h2>
+                    <a href="#">
+                        <div class="cardBtn">
+                            <img src="images/next.png" alt="" class="cardIcon">
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card two" data-aos="fade-up" data-aos-duration="1300">
+                <img src="images/healty.png" class="cardtwoImg" alt="" data-aos="fade-up" data-aos-duration="1200">
+                <div class="cardbgtwo"></div>
+                <div class="cardContent">
+                    <h2>Petunjuk yang Mudah</h2>
+                    <a href="#">
+                        <div class="cardBtn">
+                             <img src="images/next.png" alt="" class="cardIcon">
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card three" data-aos="fade-up" data-aos-duration="1600">
+                <img src="images/healty.png" class="cardthreeImg" alt="" data-aos="fade-up" data-aos-duration="1300">
+                <div class="cardbgthree"></div>
+                <div class="cardContent">
+                    <h2>Dokter Berkualitas</h2>
+                    <a href="#">
+                        <div class="cardBtn">
+                            <img src="images/next.png" alt="" class="cardIcon">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <div class="footer">
+            <h1>Rumah Sakit Islam Assyifa</h1>
+
+            <div class="footerlinks">
+                <a href="#" class="mainlink">Tentang Kami</a>
+                <a href="#">Dokter</a>
+                <a href="#">Pelayanan</a>
+                <a href="#">Kritik & Saran</a>
+                <a href="#">Kontak</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+    <script >
+        AOS.init();
+    </script>
+</body>
+</html>
+
+13. Masukan codingan CSS
+
+body, html{
+    background-color: #fcf5c7;
+    font-family: 'Playfair', serif;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    text-decoration: none;
+}
+
+.nav{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    background-color: #97C1A9;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.10);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.nav .links a{
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+.nav .links .mainlink{
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+    color: #e0501b;
+}
+.nav .links li:hover{
+    background-color: #11875d;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+.nav .links .li{
+    padding: 5px 14px;
+}
+.nav .links{
+    position: relative;
+}
+.nav .dropdown{
+    background-color: #97c1a9;
+    padding: 1em 0;
+    position: absolute;
+    display: none;border-radius: 8px;
+    top: 35px;
+}
+.nav .dropdown li + li{
+    margin: 10px;
+}
+.nav .dropdown li{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #000;
+}
+.dropdown li:hover{
+    display: block;
+    color: #e0501b;
+    background: #222;
+    box-shadow: inset 0px 0px 5px #000;
+    
+
+}
+.nav .links:hover .dropdown{
+    display: block;
+    background: #97C1A9;
+    position: absolute;
+    padding:10px;
+}   
+.nav .links .button{
+    margin-left: 65px;
+    display: inline-block;
+    padding: 10.5px 36px;
+    font-size: 14px;
+    color: #000;
+    transition: all .4s ease-in-out; 
+    text-transform: uppercase;
+    border: 1px solid #e4e6ea;
+    font-family: 'playfair', serif;
+}
+
+.nav .links .button:hover{
+    color: #e0501b;
+}
+
+/* Landing CSS */
+.Landing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+    height: 10vh;
+}
+.LandingText h1{
+    font-size: 6vw;
+    margin: 0;
+}
+.LandingText h3{
+    margin: 6px;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #777777;
+    font-family: 'playfair', serif;
+    padding-right: 20px;
+}
+.LandingText .btn{
+    width: 120px;
+    margin-top: 30px;
+    padding: 14px 20px 12px 20px;
+    background-color: #11875d;
+    border-radius: 45px;
+    text-align: center;
+}
+.LandingText .btn a{
+    font-size: 1.2vw;
+    color: #fff;
+}
+.LandingImage img{
+    width: 28vw;
+}
+
+/*Services CSS*/
+.about{
+    height: 600px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aboutText{
+    position: relative;
+    padding: 0 50px;
+    height: inherit;
+}
+.aboutText h1{
+    position: relative;
+    left: 110px;
+}
+.aboutText img{
+    width: 10vw;
+    position: absolute;
+    top: 50px;
+}
+.aboutList{
+    width: 50%;
+}
+ol{
+    list-style: none;
+    color: #11875d;
+}
+ol li{
+    font-size: 34px;
+    position: relative;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ebebeb;
+}
+li p{
+    font-size: 16px;
+    color: #11875d;
+    padding-left: 60px;
+    line-height: 30px;
+    opacity: 0.6;
+}
+li span{
+    position: absolute;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+/* info Section CSS*/
+.infoSection{
+    height: 600px;
+}
+.infoHeader{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.infoCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+.infoCards .card{
+    position: relative;
+    height: 360px;
+    width: 360px;
+    background-color: #fff;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.9), 0 10px 10px rgba(0,0,0,0.09);
+
+}
+.infoCards .one .cardoneImg{
+    width: 150px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+
+.infoCards .two .cardtwoImg{
+    width: 150px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+.infoCards .three .cardthreeImg{
+    width: 150px;
+    position: absolute;
+    top: -50px;
+    right: -30px;
+}
+.cardbgone{
+    height: 150px;
+    background-color: #fff;
+}
+.cardbgtwo{
+    height: 150px;
+    background-color: #fff; 
+}
+.cardbgthree{
+    height: 150px;
+    background-color: #fff;
+}
+
+.cardContent{
+    padding: 0 20px;
+}
+.cardContent p{
+    line-height: 30px;
+    opacity: 0.6;
+}
+.cardContent .cardBtn{
+    position: absolute;
+    right: 20px;
+    padding: 10px;
+    background-color: #ededed;
+    width: 25px;
+    height: 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out .2s;
+}
+.cardContent .cardBtn:hover{
+    background-color: #97C1A9;
+}
+.cardContent .cardBtn .cardIcon{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 16px;
+}
+
+/* footer CSS*/
+.footer{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.footerlinks a{
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #222;
+}
+.footerlinks .mainlink{
+    color: #e0501b;
+}
+.footer a:hover{
+    color: #007bff;
+}
+
+/* Responsive*/
+ @media only screen and (max-width: 600px) {
+    .nav{
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+        height: auto;
+        overflow-y: hidden;
+    }
+    .nav h4{
+        font-size: 6vw;
+        margin-top: 10px;
+        margin-bottom: 14px;
+    }
+    .nav .links a{
+        margin-right: 25px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    /*Landing CSS*/
+    .Landing{
+        flex-direction: column-reverse;
+        height: 750px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .LandingText h1{
+        font-size: 6vw;
+        margin: 0;
+    }
+    .LandingText h3{
+        font-size: 16px;
+    }
+    .LandingText .btn{
+        font-size: 3vw;
+    }
+    .LandingImage img{
+        width: 52vw;
+        margin-bottom: 20px;
+    }
+
+    /*Service*/
+    .about{
+        height: auto;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutText{
+        padding: 0 50px;
+        height: 100px;
+    }
+    .aboutText h1{
+        left: 40px;
+        font-size: 5vw;
+    }
+    .aboutText img{
+        width: 16px;
+        top: 1px;
+        left: -30px;
+    }
+    .aboutList{
+        width: 75%;
+    }
+    ol li{
+        font-size: 26px;
+
+    }
+    li p{
+        font-size: 14px;
+    }
+    .infoSection{
+        height: auto;
+    }
+    .infoHeader{
+        text-align: center;
+        margin: 40px 0;
+    }
+    .infoCards{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .infoCards .card{
+        margin-bottom: 60px;
+    }
+     /*footer*/
+     .footer{
+         padding-bottom: 40px;
+     }
+}
+#navigasi li ul {
+    position: absolute;
+    display: none;
+    float: none;
+}
+#navigasi li:hover ul {
+    float: none;
+}
+.wrapper .nav .links p {
+    float: none;
+}
+
+
+14. Buka Aplikasi Dreamweaver 
+ 
+
